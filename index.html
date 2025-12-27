@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人自我介绍</title>
+    <title>雨叶介绍</title>
     <!-- 引入Tailwind CSS用于快速样式搭建 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 引入Font Awesome用于图标展示 -->
@@ -54,7 +54,7 @@
     <!-- 导航栏 -->
     <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-primary">我的个人主页</h1>
+            <h1 class="text-xl font-bold text-primary">雨叶主页</h1>
             <div class="hidden md:flex space-x-8">
                 <a href="#about" class="text-gray-600 hover:text-primary transition-colors">关于我</a>
                 <a href="#skills" class="text-gray-600 hover:text-primary transition-colors">我的技能</a>
@@ -67,8 +67,8 @@
         <!-- 移动端菜单 -->
         <div class="md:hidden hidden bg-white shadow-md" id="mobileMenu">
             <div class="container mx-auto px-4 py-3 flex flex-col space-y-4">
-                <a href="#about" class="text-gray-600 hover:text-primary transition-colors">关于我</a>
-                <a href="#skills" class="text-gray-600 hover:text-primary transition-colors">我的技能</a>
+                <a href="#about" class="text-gray-600 hover:text-primary transition-colors">关于雨叶</a>
+                <a href="#skills" class="text-gray-600 hover:text-primary transition-colors">雨叶的爱好</a>
                 <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">联系我</a>
             </div>
         </div>
@@ -78,8 +78,8 @@
     <header class="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-primary/5 to-secondary/5">
         <div class="container mx-auto px-4">
             <div class="flex flex-col items-center text-center">
-                <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold text-dark mb-6 text-shadow">你好，我是XXX</h2>
-                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mb-8">一名热爱技术/生活的从业者，专注于自身成长与能力提升，期待与你相遇~</p>
+                <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold text-dark mb-6 text-shadow">你好，我是雨叶</h2>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mb-8">一位16岁学生~</p>
                 
                 <!-- 头像轮播容器 -->
                 <div class="w-full max-w-3xl mb-6">
@@ -88,15 +88,12 @@
                             <i class="fa fa-chevron-left text-gray-700"></i>
                         </button>
                         <div class="w-full overflow-x-auto avatar-slider flex gap-4 py-4 px-2 scrollbar-hide">
-                            <!-- 所有头像图片（你提供的8张） -->
+                            <!-- 所有头像图片（你提供的7张） -->
                             <div class="avatar-slide flex-shrink-0 w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
                                 <img src="6a0a620c43ed6e78ea0771bfc5379e88.jpg" alt="个人头像1" class="w-full h-full object-cover">
                             </div>
                             <div class="avatar-slide flex-shrink-0 w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
                                 <img src="C5DD9C480A1720759BD1C1C1290C6063.png" alt="个人头像2" class="w-full h-full object-cover">
-                            </div>
-                            <div class="avatar-slide flex-shrink-0 w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
-                                <img src="watermarked-image.png" alt="个人头像3" class="w-full h-full object-cover">
                             </div>
                             <div class="avatar-slide flex-shrink-0 w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
                                 <img src="微信图片_20251207100845.jpg" alt="个人头像4" class="w-full h-full object-cover">
@@ -134,31 +131,31 @@
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2">
                     <h3 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-dark mb-6 relative">
-                        关于我的故事
+                        关于雨叶
                         <span class="absolute -bottom-2 left-0 w-20 h-1 bg-primary rounded-full"></span>
                     </h3>
                     <p class="text-gray-600 mb-4 leading-relaxed">
-                        大家好，我是XXX，目前从事XX行业/学习XX专业，拥有X年相关经验/学习经历。我始终相信，每一份坚持都能带来不一样的收获，每一次尝试都能拓宽自身的边界。
+                        大家好，这里是雨叶，是个16岁少年，目前为高二苦逼学牲，现居江西上饶。
                     </p>
                     <p class="text-gray-600 mb-6 leading-relaxed">
-                        在工作/学习中，我注重细节、追求高效，善于总结经验并不断优化自身方法；在生活中，我热爱XX（比如旅行、阅读、运动等），喜欢在闲暇时光里感受生活的美好，充实自己的精神世界。
+                        平日喜欢唱歌，跳kpop舞和抖舞，捣鼓手机和电脑嘻
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <div class="flex items-center gap-2">
                             <i class="fa fa-check-circle text-primary"></i>
-                            <span class="text-gray-700">积极乐观</span>
+                            <span class="text-gray-700">唱歌>chang'
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fa fa-check-circle text-primary"></i>
-                            <span class="text-gray-700">善于协作</span>
+                            <span class="text-gray-700">kpop舞>tiao>t
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fa fa-check-circle text-primary"></i>
-                            <span class="text-gray-700">持续学习</span>
+                            <span class="text-gray-700">抖>dou>舞>u
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fa fa-check-circle text-primary"></i>
-                            <span class="text-gray-700">注重细节</span>
+                            <span class="text-gray-700">捣鼓手机和电脑>捣鼓>dao
                         </div>
                     </div>
                 </div>
@@ -169,58 +166,50 @@
         </div>
     </section>
 
-    <!-- 我的技能模块 -->
+    <!-- 混的圈子-->
     <section id="skills" class="py-16 md:py-24 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h3 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-dark mb-4">我的核心技能</h3>
-                <p class="text-gray-600 max-w-2xl mx-auto">不断打磨自身技能，提升核心竞争力，为每一个目标全力以赴</p>
+                <h3 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-dark mb-4">平时混的圈有点多有点杂>平时>>
+                <p class="text-gray-600 max-w-2xl mx-auto">top1是福瑞圈（福瑞控一位），也是平时混的最多的圈子 top2偶尔混点韩娱那一块>to>
                 <div class="w-20 h-1 bg-primary rounded-full mx-auto mt-4"></div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- 技能卡片1 -->
+                <!-- 最爱的团体和组合成员 -->
                 <div class="bg-white rounded-xl shadow-md p-6 card-hover">
                     <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                         <i class="fa fa-code text-primary text-xl"></i>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">编程开发</h4>
-                    <p class="text-gray-600">熟练掌握HTML、CSS、JavaScript等前端技术，具备一定的项目开发能力</p>
+                    <p class="text-gray-600">平时最喜欢ILLIT(礼的粉），最爱李沅禧WOOHEE>平时>
                 </div>
-                <!-- 技能卡片2 -->
+                <!-- 最爱的福瑞博主 -->
                 <div class="bg-white rounded-xl shadow-md p-6 card-hover">
                     <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                         <i class="fa fa-paint-brush text-primary text-xl"></i>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">设计审美</h4>
-                    <p class="text-gray-600">具备良好的视觉审美，能够完成基础的UI设计、图片处理等工作</p>
+                    <p class="text-gray-600">好多啊，银酱，银碳，剀澜，冰淇淋，小麻雀，罗小客，丢丢，清渊....太多了列不玩呜啊！>ha>
                 </div>
-                <!-- 技能卡片3 -->
+                <!-- 圈内最好的朋友 -->
                 <div class="bg-white rounded-xl shadow-md p-6 card-hover">
                     <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                         <i class="fa fa-language text-primary text-xl"></i>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">语言能力</h4>
-                    <p class="text-gray-600">具备良好的中英文沟通能力，能够顺畅完成跨语言的交流与文档阅读</p>
-                </div>
-                <!-- 技能卡片4 -->
-                <div class="bg-white rounded-xl shadow-md p-6 card-hover">
-                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fa fa-tasks text-primary text-xl"></i>
-                    </div>
-                    <h4 class="text-xl font-semibold mb-2">项目管理</h4>
-                    <p class="text-gray-600">具备基础的项目规划与执行能力，能够协调资源推进项目落地</p>
+                    <p class="text-gray-600">牧良，睦瞵，芝士阿冢，光邪，汐澄，沉鳞（可以在抖音或b站关注他们哟）>牧>>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 联系我模块 -->
+    <!-- 找到雨叶 -->
     <section id="contact" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h3 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-dark mb-4">联系我</h3>
-                <p class="text-gray-600 max-w-2xl mx-auto">如果你对我感兴趣，或者有合作机会，欢迎随时与我取得联系</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">如果你对雨叶感兴趣，欢迎扩列，还请多多关注雨叶的社交账号</p>
                 <div class="w-20 h-1 bg-primary rounded-full mx-auto mt-4"></div>
             </div>
 
@@ -230,24 +219,24 @@
                     <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-weixin text-primary text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-2">微信</h4>
-                    <p class="text-gray-600">WeChat：xxxxxxxxx</p>
+                    <h4 class="text-xl font-semibold mb-2">微信>weq>
+                    <p class="text-gray-600">WeChat：justyuyeal201313</p>
                 </div>
                 <!-- 联系卡片2 -->
                 <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
                     <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-envelope text-primary text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-2">邮箱</h4>
-                    <p class="text-gray-600">Email：xxx@xxx.com</p>
+                    <h4 class="text-xl font-semibold mb-2">qq和qq群>q>
+                    <p class="text-gray-600">qq:2727446630(qq群：1073214602)</p>
                 </div>
                 <!-- 联系卡片3 -->
                 <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
                     <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-phone text-primary text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-2">电话</h4>
-                    <p class="text-gray-600">Phone：138-xxxx-xxxx</p>
+                    <h4 class="text-xl font-semibold mb-2">社交账号>s'j>
+                    <p class="text-gray-600">抖音，b站，小红书搜索雨叶YuYeal即可找到我>抖音>
                 </div>
             </div>
         </div>
@@ -256,7 +245,7 @@
     <!-- 页脚 -->
     <footer class="bg-dark text-white py-8">
         <div class="container mx-auto px-4 text-center">
-            <p class="mb-4">© 2025 我的个人主页 | 所有权利保留</p>
+            <p class="mb-4">© 2025 雨叶YuYeal | 所有权利保留</p>
             <div class="flex justify-center gap-6 mb-4">
                 <a href="#" class="text-gray-300 hover:text-white transition-colors">
                     <i class="fa fa-github text-xl"></i>
